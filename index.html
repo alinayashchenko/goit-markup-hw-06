@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
     <header class="page-header">
         <div class="container header-container">
@@ -33,7 +34,73 @@
                     <li class="contacts-item"><a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
-        </div>       
+
+            <button class="burger-button" data-menu-open> 
+                <svg class="burger-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-burger"></use>
+                </svg>
+            </button>
+        </div>    
+        
+        <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu-container">
+                <button class="mobile-menu-close" type="button" data-menu-close>
+                    <svg class="icon-cross" width="8" height="8">
+                      <use href="./images/icons.svg#icon-cross"></use>
+                    </svg>
+                </button>
+
+                <nav class="mobile-menu-nav">
+                    <ul class="mobile-menu-nav-list">
+                        <li class="mobile-menu-nav-item"><a class="mobile-menu-nav-link current" href="">Studio</a></li>
+                        <li class="mobile-menu-nav-item"><a class="mobile-menu-nav-link" href="">Portfolio</a></li>
+                        <li class="mobile-menu-nav-item"><a class="mobile-menu-nav-link" href="">Contacts</a></li>
+                    </ul>
+                </nav>
+
+                <address class="mobile-menu-contacts">
+                    <ul class="mobile-menu-contacts-list">
+                        <li class="mobile-menu-contacts-item"><a class="mobile-menu-contacts-link current" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                        <li class="mobile-menu-contacts-item"><a class="mobile-menu-contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    </ul>
+                </address>
+
+                <ul class="mobile-icons-list">
+                    <li class="">
+                        <a class="mobile-icons-link" href="">
+                            <svg class="mobile-icons-item" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                
+                    <li class="">
+                        <a class="mobile-icons-link" href="">
+                            <svg class="mobile-icons-item" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                
+                    <li class="">
+                        <a class="mobile-icons-link" href="">
+                            <svg class="mobile-icons-item" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                
+                    <li class="">
+                        <a class="mobile-icons-link" href="">
+                            <svg class="mobile-icons-item" width="24" height="24">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script src="./menu.js"></script>
     </header>     
 
     <main> 
@@ -55,7 +122,7 @@
                             </svg>
                         </div>
                         <h3 class="title-three title-fields">Strategy</h3>
-                        <p class="text-title-three">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+                        <p class="text-title-three text-mob">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
                     </li>
             
                     <li class="list-item-two">
@@ -65,7 +132,7 @@
                             </svg>
                         </div>
                         <h3 class="title-three title-fields">Punctuality</h3>
-                        <p class="text-title-three">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                        <p class="text-title-three text-mob">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                     </li>
             
                     <li class="list-item-two">
@@ -75,7 +142,7 @@
                             </svg>
                         </div>
                         <h3 class="title-three title-fields">Diligence</h3>
-                        <p class="text-title-three">Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
+                        <p class="text-title-three text-mob">Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
                     </li>
             
                     <li class="list-item-two">
@@ -85,7 +152,7 @@
                             </svg>
                         </div>
                         <h3 class="title-three title-fields">Technologies</h3>
-                        <p class="text-title-three">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                        <p class="text-title-three text-mob">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                     </li>
                 </ul>
                 </div>
@@ -264,7 +331,7 @@
             </div>  
         </section>
         
-        <section class="section-four">
+        <!-- <section class="section-four">
             <div class="container">
                 <h2 class="title-two">Our Portfolio</h2>
                 <ul class="list-section-four">
@@ -347,10 +414,10 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
     </main>
 
-    <footer class="page-footer">
+    <!-- <footer class="page-footer">
         <div class="container footer-container">
             <div class="logo-container">
                 <a class="logo footer-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
@@ -408,9 +475,9 @@
                 </form>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
-    <div class="backdrop is-open">
+    <!-- <div class="backdrop is-open">
         <div class="modal">
             <button type="button" class="modal-close">
                 <svg class="icon-cross" width="8" height="8">
@@ -467,6 +534,6 @@
                 <button type="submit" class="button-submit">Send</button>
             </form>
         </div>
-    </div>
+    </div> -->
 </body>
 </html>
