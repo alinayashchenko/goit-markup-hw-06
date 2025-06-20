@@ -299,6 +299,157 @@ h6 {
 
 /* --------------section-3-------------- */
 
+.section-three {
+    background-color: #f4f4fd;
+    padding: 96px 0;
+}
+
+.title-two {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 72px;
+}
+
+.name {
+    padding: 32px 0;
+    text-align: center;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title-three-mob {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.text-title-three {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.list-item-three {
+    background-color: #FFFFFF border-bottom: 1px solid #e7e9fc;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.icons-media-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.icons-main-link {
+    background-color: #4d5ae5;
+    padding: 12px 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icons-item {
+    fill: #f4f4fd;
+}
+
+/* --------------section-4-------------- */
+
+.section-four {
+    padding: 96px 0;
+}
+
+.list-item-four {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list-item-four:hover {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.image-section-four {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #4d5ae5;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    text-align: left;
+    padding: 40px 32px;
+}
+
+.list-item-four:hover .overlay {
+    transform: translateY(0);
+}
+
+.text-overlay {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    text-align: left;
+    padding-top: 40px;
+    width: 296px;
+    margin: 0 auto;
+}
+
+
+.list-section-four {
+    display: flex;
+    flex-direction: column;
+    gap: 48px
+}
+
+.app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.button:hover {
+    background-color: #404bbf;
+}
+
+/* --------------------footer-------------------- */
+
+
 
 
 /* --------------------TABLET-------------------- */
@@ -424,6 +575,39 @@ h6 {
 
 /* --------------section-3-------------- */
 
+.team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+}
+
+.list-item-three {
+    width: calc((100% - 24) / 2);
+}
+
+/* --------------section-4-------------- */
+
+.section-four {
+    padding-top: 120px 0;
+}
+
+.list-item-four {
+    width: calc((100% - 24px) / 2);
+}
+
+.list-section-four {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+}
+
+/* --------------footer-------------- */
+
+
+
 }
 
 /* --------------------DESKTOP-------------------- */
@@ -509,86 +693,45 @@ h6 {
 
 /* --------------section-3-------------- */
 
-        .section-three {
-            background-color: #f4f4fd;
-            padding: 120px 0;
-        }
-    
-        .title-two {
-            font-weight: 700;
-            font-size: 36px;
-            line-height: 1.11;
-            letter-spacing: 0.02em;
-            text-align: center;
-            color: #2e2f42;
-            text-transform: capitalize;
-            margin-bottom: 72px;
-        }
-    
-        .title-three {
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
-            letter-spacing: 0.02em;
-            color: #2e2f42;
-            margin-bottom: 8px;
-        }
-    
-        .text-title-three {
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #434455;
-        }
-    
-        .team-list {
-            display: flex;
-            justify-content: center;
-            gap: 24px;
-        }
-    
-        .list-item-three {
-            background-color: #FFFFFF border-bottom: 1px solid #e7e9fc;
-            border-radius: 0 0 4px 4px;
-            box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-            width: calc((100% - 72) / 4);
-        }
-    
-        .name {
-            padding: 32px 0;
-            text-align: center;
-            background-color: #FFFFFF;
-        }
-    
-        .icons-media-list {
-            display: flex;
-            justify-content: center;
-            gap: 24px;
-            margin-top: 8px;
-        }
-    
-        .icons-main-link {
-            background-color: #4d5ae5;
-            padding: 12px 12px;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
-    
-        .icons-main-link:hover,
-        .icons-main-link:focus {
-            background-color: #404bbf;
-            ;
-        }
-    
-        .icons-item {
-            fill: #f4f4fd;
-        }
-    
+.section-three {
+    padding: 120px 0;
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.list-item-three {
+    width: calc((100% - 72) / 4);
+}
+
+.icons-main-link:hover,
+.icons-main-link:focus {
+    background-color: #404bbf;
+    ;
+}
+
+/* --------------section-4-------------- */
+
+.section-four {
+    padding-top: 120px 0;
+}
+
+.list-item-four {
+    width: calc((100% - 48px) / 3);
+}
+
+.list-section-four {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+/* --------------footer-------------- */
 
 
 
@@ -596,94 +739,13 @@ h6 {
 
 
 
+    .button:hover {
+    background-color: #404bbf;
+}
 
-
-
-
-
-        .section-four {
-            padding-top: 120px;
-            padding-bottom: 120px;
-        }
-    
-        .list-item-four {
-            width: calc((100% - 48px) / 3);
-            transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
-    
-        .list-item-four:hover {
-            box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-        }
-    
-        .image-section-four {
-            position: relative;
-            overflow: hidden;
-        }
-    
-        .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            transform: translateY(100%);
-            transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-            background-color: #4d5ae5;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #f4f4fd;
-            text-align: left;
-            padding: 40px 32px;
-        }
-    
-        .list-item-four:hover .overlay {
-            transform: translateY(0);
-        }
-    
-        .text-overlay {
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #f4f4fd;
-            text-align: left;
-            padding-top: 40px;
-            width: 296px;
-            margin: 0 auto;
-        }
-    
-    
-        .list-section-four {
-            display: flex;
-            flex-wrap: wrap;
-            column-gap: 24px;
-            row-gap: 48px;
-        }
-    
-        .app {
-            padding: 32px 16px;
-            border: 1px solid #e7e9fc;
-            border-top: none;
-        }
-    
-        .button:hover {
-            background-color: #404bbf;
-        }
-    
-        .button:focus {
-            background-color: #404BBF;
-        }
-    
-
-
-
-
-
-
-
-
-
+    .button:focus {
+    background-color: #404BBF;
+}
         
         .footer-logo .logo-part {
             color: #f4f4fd;
