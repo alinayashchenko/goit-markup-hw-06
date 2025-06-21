@@ -234,7 +234,7 @@ h6 {
 @media screen and (min-resolution: 2x) {
     .section-one {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/2x/background-mob@2x-min-2x.jpg);
+            url(../images/2x/background-mob@2x-min.jpg);
     }
 }
 
@@ -473,6 +473,7 @@ h6 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 72px;
 }
 
 .footer-logo {
@@ -484,10 +485,6 @@ h6 {
 
 .footer-logo .logo-part {
     color: #f4f4fd;
-}
-
-.logo-container {
-    margin-bottom: 72px;
 }
 
 .footer-text-left {
@@ -554,6 +551,8 @@ h6 {
 .subscribe-form {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .input-footer {
@@ -568,15 +567,10 @@ h6 {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     color: #ffffff;
     padding-left: 16px;
-    margin-bottom: 16px;
 }
 
 input::placeholder {
     color: #ffffff;
-}
-
-.social-media-footer {
-    margin-bottom: 72px;
 }
 
 .button-footer {
@@ -914,7 +908,7 @@ input::placeholder {
 @media screen and (min-resolution: 2x) {
     .section-one {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/2x/background-tab@2x-min-2x.jpg);
+            url(../images/2x/background-tab@2x-min.jpg);
     }
 }
 
@@ -996,24 +990,22 @@ input::placeholder {
     width: 264px;
 }
 
+.form-container {
+    flex-direction: column;
+}
+
 .subscribe-text,
 .footer-text-right {
     text-align: start;
 }
 
 .subscribe-form {
-    display: flex;
-    gap: 24px;
-    align-items: flex-end;
+    flex-direction: row;
+    gap: 24px;   
 }
 
 .input-footer {
     width: 264px;
-}
-
-.button-footer {
-    margin: 0;
-    margin-top: 40px;
 }
 
 .logo-container, 
@@ -1087,7 +1079,7 @@ input::placeholder {
 @media screen and (min-resolution: 2x) {
     .section-one {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/2x/background@2x-min-2x.jpg);
+        url(../images/2x/background@2x-min.jpg);
     }
 }
 
@@ -1182,11 +1174,12 @@ input::placeholder {
 .footer-container {
     flex-direction: row;
     flex-wrap: nowrap;
-    column-gap: 0;
+    gap: 0;
 }
 
 .logo-container {
     margin-right: 120px;
+    width: 264px;
 }
 
 .footer-logo {
@@ -1198,12 +1191,12 @@ input::placeholder {
     width: 264px;
 }
 
-.form-container {
-    margin-left: 80px;
+.social-media-footer {
+    margin-right: 80px;
 }
 
-.input-footer {
-    margin-right: 24px;
+.form-container {
+    flex-direction: column;
 }
-        
+
 }
