@@ -465,8 +465,7 @@ h6 {
 /* --------------------footer-------------------- */
 
 .page-footer {
-    background-color: #2e2f42;
-    padding: 96px 0;
+    background-color: #2e2f42;  
 }
 
 .footer-container {
@@ -474,6 +473,7 @@ h6 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 72px;
+    padding: 96px 0;
 }
 
 .footer-logo {
@@ -938,6 +938,10 @@ input::placeholder {
 
 /* --------------section-3-------------- */
 
+.team-container {
+    width: 584px;
+}
+
 .team-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -972,13 +976,13 @@ input::placeholder {
 
 .page-footer {
     background-color: #2e2f42;
-    padding: 96px 108px;
 }
 
 .footer-container {
     column-gap: 24px;
     row-gap: 72px;
     justify-content: flex-start;
+    padding: 96px 108px;
 }
 
 .footer-logo {
@@ -1093,6 +1097,10 @@ input::placeholder {
     padding: 120px 0;
 }
 
+.title-fields {
+    font-size: 20px;
+}
+
 .icon-conteiner {
     display: flex;
     justify-content: center;
@@ -1123,6 +1131,10 @@ input::placeholder {
 
 .section-three {
     padding: 120px 0;
+}
+
+.team-container {
+    width: 1158px;
 }
 
 .team-list {
