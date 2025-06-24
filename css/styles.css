@@ -319,6 +319,11 @@ h6 {
     padding: 96px 0;
 }
 
+.team-container {
+    width: 296px;
+    margin: 0 auto;
+}
+
 .title-two {
     font-weight: 700;
     font-size: 36px;
@@ -334,7 +339,7 @@ h6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 72px;
+    gap: 72px;  
 }
 
 .name {
@@ -407,6 +412,7 @@ h6 {
 .image-section-four {
     position: relative;
     overflow: hidden;
+    
 }
 
 .overlay {
